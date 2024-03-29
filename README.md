@@ -17,7 +17,11 @@ Primeiro criamos uma cena,coerente com oque faremos:
 
 <img src="img/2.png"/>
 
-codigo para adicionar o raycast
+Depois faremos com que o alvo vire um prefab e colocaremos a tag "target" para depois o chamarmos no código.
+
+<img src="img/3.png"/>
+
+usaremos esse codigo para adicionar o raycast:
 ```ruby
 using System.Collections;
 using System.Collections.Generic;
@@ -60,5 +64,7 @@ public class NewBehaviourScript : MonoBehaviour
      }
 }
 ````
+Esse código faz com que o raycast siga o mouse, mas como o mouse está travado no
+
 ## Video de Demonstração
 `https://youtu.be/AyOQ08FSe_w`
