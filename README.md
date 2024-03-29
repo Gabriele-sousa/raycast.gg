@@ -64,7 +64,11 @@ public class NewBehaviourScript : MonoBehaviour
      }
 }
 ````
-Esse código faz com que o raycast siga o mouse, mas como o mouse está travado no
+Esse código faz com que o raycast siga o mouse, mas como o mouse está travado no centro da tela, o raycast sempre será lançado do centro. e sempre que acertar um prefab com a tag "target" ele o destruirá.
+
+<img src="img/4.png"/>
+
+depois iremos colocar todos os scripts na câmera. e seu projeto está pronto
 
 ## Video de Demonstração
 `https://youtu.be/AyOQ08FSe_w`
