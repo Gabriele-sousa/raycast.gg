@@ -13,6 +13,10 @@ para ver a cena é necessario o unity na versão `2023.1.11f1`
 ## Desenvolvimento 
 Para criar esse projeto foi preciso os sguintes passos:
 
+Primeiro criamos uma cena,coerente com oque faremos:
+
+<img src="img/2.png"/>
+
 codigo para adicionar o raycast
 ```ruby
 using System.Collections;
