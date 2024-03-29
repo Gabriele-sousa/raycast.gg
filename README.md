@@ -21,6 +21,10 @@ Depois faremos com que o alvo vire um prefab e colocaremos a tag "target" para d
 
 <img src="img/3.png"/>
 
+criaremos dois scripts, um script básico de movimentação de camera, e um para o raycast:
+
+<img src="img/4.png"/>
+
 usaremos esse codigo para adicionar o raycast:
 ```ruby
 using System.Collections;
@@ -66,9 +70,11 @@ public class NewBehaviourScript : MonoBehaviour
 ````
 Esse código faz com que o raycast siga o mouse, mas como o mouse está travado no centro da tela, o raycast sempre será lançado do centro. e sempre que acertar um prefab com a tag "target" ele o destruirá.
 
-<img src="img/4.png"/>
+<img src="img/5.png"/>
 
 depois iremos colocar todos os scripts na câmera. e seu projeto está pronto
+
+<img src="img/6.png"/>
 
 ## Video de Demonstração
 `https://youtu.be/AyOQ08FSe_w`
